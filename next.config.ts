@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '/animated-ark-riacter',
-  assetPrefix: '/animated-ark-riacter',
+  assetPrefix: '/animated-ark-riacter/',
 };
 
 export default nextConfig;
