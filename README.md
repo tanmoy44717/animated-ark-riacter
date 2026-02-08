@@ -2,10 +2,7 @@
 
 A high-performance, visually stunning 3D-animated landing page built with **Next.js**, **Framer Motion**, and **Canvas**. This project features a scroll-driven "exploded view" of a cinematic Arc Reactor core.
 
-![Arc Reactor Preview](public/animatedarcriacter/ezgif-frame-001.jpg)
-
-## 🚀 Live Demo
-**Host Link:** [https://tanmoy44717.github.io/animated-ark-riacter/](https://tanmoy44717.github.io/animated-ark-riacter/)
+![Arc Reactor Preview](public/screenshot.png)
 
 ## ✨ Features
 - **Scroll-Synchronized 3D Animation:** 240+ high-quality frames rendered via HTML5 Canvas for buttery smooth "ping-pong" disassembly and reassembly.

@@ -4,7 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform, useMotionValueEvent, motion, useSpring } from "framer-motion";
 
 const FRAME_COUNT = 240;
-const IMAGE_PATH = "/animatedarcriacter/ezgif-frame-";
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const IMAGE_PATH = `${BASE_PATH}/animatedarcriacter/ezgif-frame-`;
 
 export default function ArcRiactor() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
