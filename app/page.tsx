@@ -1,6 +1,7 @@
 "use client";
 
 import { useScroll, useTransform, motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -253,9 +254,9 @@ export default function Home() {
               </div>
 
               <div className="mt-8 flex justify-center gap-6">
-                <a href="/login" className="px-8 py-4 bg-white text-black font-bold rounded-full transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                <Link href="/login" className="px-8 py-4 bg-white text-black font-bold rounded-full transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                     ACCESS CONSOLE
-                </a>
+                </Link>
               </div>
           </div>
       </motion.div>
