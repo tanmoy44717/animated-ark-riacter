@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/animated-ark-riacter//_next/:path+",
+        "destination": "/animated-ark-riacter/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
