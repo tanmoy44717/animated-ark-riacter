@@ -22,7 +22,7 @@ A high-performance, visually stunning 3D-animated landing page built with **Next
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/tanmoy44717/animated-ark-riacter.git
+   git clone https://github.com/Tcode-Motion/animated-ark-riacter.git
    cd animated-ark-riacter
    ```
 
